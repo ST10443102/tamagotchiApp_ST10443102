@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_wallpapers"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coiny"
+        android:text="WELCOME TO TAMAGOTCHI"
+        android:textAlignment="center"
+        android:textColor="#EC739C"
+        android:textSize="48sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="47dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        app:srcCompat="@drawable/premium_vector___cute_calico_cat_waving_paw_cartoon_vector_illustration" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="102dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="234dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/coiny"
+        android:lineSpacingExtra="1sp"
+        android:text="START GAME!!"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="64dp" />
+
+</LinearLayout>
+
