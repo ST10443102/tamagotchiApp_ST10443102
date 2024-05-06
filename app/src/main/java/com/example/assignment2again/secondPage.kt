@@ -37,7 +37,7 @@ class secondPage : AppCompatActivity() {
 
 // setting click on listener to display both the image of the cat eating and adding points when it does
     feedButton.setOnClickListener { petImageView.setImageResource(R.drawable.cute_calico_cat_eating_pizza_in_pizza_box_funny_wall_and_art_print)
-    hungerValue +=10
+    hungerValue =10
     healthValue += 10
     hungerValue += 5
     hungerTextView.setText(hungerValue.toString()) }
